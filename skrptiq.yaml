@@ -1,0 +1,38 @@
+name: "stakeholder-update-pipeline"
+display_name: "Stakeholder Update Pipeline"
+description: "Generate executive summaries, board decks, and stakeholder communications from raw product data"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+licence: "MIT"
+repository: "https://github.com/skrpts/stakeholder-update-pipeline"
+
+category: "product-manager"
+tags:
+  - "stakeholder-management"
+  - "executive-summary"
+  - "board-deck"
+  - "communications"
+  - "reporting"
+
+requires:
+  services:
+    - "anthropic-claude"
+  permissions: []
+  data_handling:
+    - "business-metrics"
+    - "product-roadmap"
+    - "financial-data"
+
+contents:
+  skills: 3
+  prompts: 5
+  workflows: 1
+  services: 1
+  sources: 1
+  documents: 1
+  assets: 2
+  total: 14

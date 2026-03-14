@@ -5,7 +5,7 @@ title: Narrative Framing
 description: "Framing product updates as compelling narratives for different audiences, connecting data to strategic context"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: stakeholder-comms-framework
     type: references

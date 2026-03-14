@@ -19,8 +19,7 @@ tags:
   - "reporting"
 
 requires:
-  services:
-    - "anthropic-claude"
+  services: []
   permissions: []
   data_handling:
     - "business-metrics"

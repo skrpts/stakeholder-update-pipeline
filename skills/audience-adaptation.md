@@ -5,7 +5,7 @@ title: Audience Adaptation
 description: "Adapting content tone, depth, and focus for different stakeholder groups while maintaining message consistency"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
 metadata:
   estimated_duration: "3-5 minutes"

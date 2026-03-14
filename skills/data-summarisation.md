@@ -5,7 +5,7 @@ title: Data Summarisation
 description: "Distilling complex data into concise, audience-appropriate summaries that highlight what matters most"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
 metadata:
   estimated_duration: "3-5 minutes"

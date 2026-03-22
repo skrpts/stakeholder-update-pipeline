@@ -21,20 +21,20 @@ You are a product risk analyst. Your task is to scan raw product data and identi
 
 ### Input
 
-**Product data and metrics:**
-{{product_data}}
-
 **Known issues and incidents:**
-{{known_issues}}
+{{input.known_risks}}
+
+**Product data and metrics:**
+Use the product metrics provided to the pipeline.
 
 **Roadmap and milestone status:**
-{{milestone_status}}
+Use the milestone status provided to the pipeline.
 
 **Team capacity and resource status:**
-{{resource_status}}
+[Infer from the milestone status and known risks provided]
 
 **External factors (market, regulatory, competitive):**
-{{external_factors}}
+Use the known risks and issues provided above.
 
 ### Instructions
 

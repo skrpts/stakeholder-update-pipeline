@@ -22,22 +22,22 @@ You are a product communications specialist. Your task is to draft stakeholder u
 ### Input
 
 **Executive summary:**
-{{executive_summary}}
+[The executive summary generated in Stage 2]
 
 **Reporting period:**
-{{reporting_period}}
+[The reporting period from the executive summary produced in Stage 2]
 
 **Product/team name:**
-{{product_name}}
+[Infer from the executive summary provided]
 
 **Audience segments to target:**
-{{audience_segments}}
+[Executive leadership, cross-functional partners, and team leads]
 
 **Sender name and role:**
-{{sender_info}}
+[The product lead or team manager]
 
 **Specific asks or CTAs per audience (if any):**
-{{audience_specific_asks}}
+[The key decisions from the executive summary produced in Stage 2]
 
 ### Instructions
 

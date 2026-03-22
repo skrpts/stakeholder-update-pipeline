@@ -142,7 +142,11 @@ The pipeline produces:
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.brief}}` | Yes | Primary workflow brief or source content | `Paste a short brief describing the goal, audience, and constraints.` |
+| `{{input.product_metrics}}` | Yes | Current product metrics — adoption, revenue, engagement, performance data | "MAU: 45,000 (up 12%). Revenue: $2.1M ARR (up 8%). Trial-to-paid: 28% (down from 34%). Uptime: 99.97%." |
+| `{{input.milestone_status}}` | Yes | Milestone status — what is on track, at risk, delayed, or completed | "Auth rewrite: completed. API v2: at risk (1 week behind). Mobile launch: on track for April 15. Dashboard redesign: delayed to Q3." |
+| `{{input.reporting_period}}` | No | The reporting period this update covers | "Q1 2026" or "March 2026" or "Sprint 14" |
+| `{{input.key_decisions}}` | No | Key decisions made or pending that stakeholders should know about | "Decided to defer Salesforce integration to Q3. Pending: board approval for headcount increase." |
+| `{{input.known_risks}}` | No | Risk register or known issues requiring stakeholder attention | "Enterprise pipeline at risk — 2 of 3 target accounts paused procurement. Support ticket volume up 25%." |
 
 ## Outputs
 
@@ -169,6 +173,14 @@ Before running this workflow:
 To test this workflow immediately after import:
 
 ```
-Brief: "Paste a short brief describing the goal, audience, and constraints."
+Product Metrics: "MAU: 45,000 (up 12% from 40,200). Revenue: $2.1M ARR (up 8%).
+Trial-to-paid conversion: 28% (down from 34%). Platform uptime: 99.97%."
+
+Milestone Status: "Auth rewrite: completed on schedule. API v2: at risk, 1 week behind.
+Mobile launch: on track for April 15."
+
+Key Decisions: "Decided to defer Salesforce integration to Q3 due to resource constraints."
+
+Known Risks: "Enterprise pipeline at risk — 2 of 3 target accounts paused procurement."
 ```
 

@@ -22,22 +22,22 @@ You are a product analytics narrator. Your task is to transform raw dashboard me
 ### Input
 
 **Product/team name:**
-{{product_name}}
+[Infer from the product metrics provided]
 
 **Reporting period:**
-{{reporting_period}}
+{{input.reporting_period}}
 
 **Current metrics:**
-{{current_metrics}}
+{{input.product_metrics}}
 
 **Previous period metrics (for comparison):**
-{{previous_metrics}}
+[Infer period-over-period changes from the product metrics provided]
 
 **Targets/goals for this period:**
-{{targets}}
+[Infer targets from the product metrics and milestone status provided]
 
 **Known events or changes that may have affected metrics (feature launches, incidents, marketing campaigns):**
-{{known_events}}
+{{input.milestone_status}}
 
 ### Instructions
 

@@ -31,22 +31,22 @@ You are a senior product communications specialist. Your task is to distil raw p
 [Infer from the product metrics provided]
 
 **Reporting period:**
-[The reporting period from the metrics narrative produced in Stage 1a]
+{{input.reporting_period}}
 
 **Metrics narrative:**
-[The metrics narrative generated in Stage 1a]
+{{steps.metrics-dashboard-narrator.output}}
 
 **Risk highlights:**
-[The risk highlights generated in Stage 1b]
+{{steps.risk-highlight-prompt.output}}
 
 **Milestone status:**
-[The milestone status drawn from the metrics narrative and risk highlights produced in Stage 1]
+{{input.milestone_status}}
 
 **Key decisions made this period:**
 {{input.key_decisions}}
 
 **Upcoming milestones:**
-[The upcoming milestones drawn from the metrics narrative produced in Stage 1a]
+Drawn from the metrics narrative and milestone status above.
 
 ### Instructions
 

@@ -24,22 +24,22 @@ You are a senior product leader preparing content for a board-level presentation
 ### Input
 
 **Executive summary:**
-[The executive summary generated in Stage 2]
+{{steps.executive-summary-writer.output}}
 
 **Detailed metrics data:**
-[The metrics narrative from Stage 1a contains the processed metrics data — use this rather than the raw input]
+{{steps.metrics-dashboard-narrator.output}}
 
 **Strategic context (company vision, annual OKRs):**
-[Infer from the executive summary and metrics narrative provided]
+Infer from the executive summary and metrics narrative provided above.
 
 **Competitive landscape updates:**
-[Infer from the risk highlights and executive summary provided]
+Infer from the risk highlights and executive summary: {{steps.risk-highlight-prompt.output}}
 
 **Financial context (budget, burn rate, revenue):**
-[The metrics narrative from Stage 1a contains relevant financial context — draw from that]
+Draw from the metrics narrative provided above.
 
 **Previous board deck key points (for continuity):**
-[Reference previous period context if available in the metrics narrative]
+Reference previous period context if available in the metrics narrative.
 
 ### Instructions
 

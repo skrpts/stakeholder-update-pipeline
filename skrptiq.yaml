@@ -19,7 +19,8 @@ tags:
   - "reporting"
 
 requires:
-  services: []
+  services:
+    - "llm-service"
   permissions: []
   data_handling:
     - "business-metrics"

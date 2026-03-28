@@ -21,9 +21,17 @@ connections:
     type: uses
   - target: risk-highlight-prompt
     type: uses
+  - target: stakeholder-analysis
+    type: uses
+  - target: executive-summary
+    type: uses
+  - target: executive-summary-prompt
+    type: uses
   - target: llm-service
     type: runs_on
   - target: stakeholder-comms-framework
+    type: references
+  - target: company-okrs
     type: references
   - target: stakeholder-management-guide
     type: references

@@ -3,7 +3,7 @@ type: skill
 id: executive-summary
 title: Executive Summary
 description: "Distilling complex analysis into concise, decision-ready executive summaries for senior stakeholders"
-tags: [Production, Tested, writing:communication, communication:stakeholder]
+tags: [Production, Tested, Communication, Metrics]
 connections:
   - target: llm-service
     type: runs_on

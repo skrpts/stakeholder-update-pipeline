@@ -3,7 +3,7 @@ type: prompt
 id: stakeholder-email-composer
 title: Stakeholder Email Composer
 description: "Draft stakeholder update emails tailored to different audiences with appropriate tone, depth, and focus"
-tags: [Production, writing:communication, communication:stakeholder]
+tags: [Production, Audience, Communication]
 connections:
   - target: audience-adaptation
     type: derived_from

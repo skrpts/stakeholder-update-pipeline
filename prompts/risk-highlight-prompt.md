@@ -3,7 +3,7 @@ type: prompt
 id: risk-highlight-prompt
 title: Risk Highlight Prompt
 description: "Identify and frame key risks from product data for stakeholder attention"
-tags: [Production, analysis:risk, writing:communication, communication:stakeholder]
+tags: [Production, Communication, Risk]
 connections:
   - target: data-summarisation
     type: derived_from

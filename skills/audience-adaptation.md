@@ -3,7 +3,7 @@ type: skill
 id: audience-adaptation
 title: Audience Adaptation
 description: "Adapting content tone, depth, and focus for different stakeholder groups while maintaining message consistency"
-tags: [Production, Tested, writing:communication, communication:stakeholder, communication:narrative]
+tags: [Production, Tested, Audience, Communication]
 connections:
   - target: llm-service
     type: runs_on

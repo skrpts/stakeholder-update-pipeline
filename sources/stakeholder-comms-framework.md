@@ -3,7 +3,7 @@ type: source
 id: stakeholder-comms-framework
 title: Stakeholder Communications Framework
 description: "Reference framework for structuring stakeholder communications by audience, cadence, and channel"
-tags: [Production, Customer-Facing, writing:communication, communication:stakeholder]
+tags: [Production, Customer-Facing, Audience, Communication]
 connections: []
 metadata:
   source_type: "reference-material"

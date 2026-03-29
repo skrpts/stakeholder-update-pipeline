@@ -3,7 +3,7 @@ type: asset
 id: exec-summary-template
 title: Executive Summary Template
 description: "Template for one-page executive summaries of product updates"
-tags: [Production, Customer-Facing]
+tags: [Production, Customer-Facing, writing:communication, communication:stakeholder]
 connections: []
 metadata:
   asset_type: "template"

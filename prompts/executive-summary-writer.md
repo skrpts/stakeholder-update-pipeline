@@ -3,7 +3,7 @@ type: prompt
 id: executive-summary-writer
 title: Executive Summary Writer
 description: "Generate a one-page executive summary from product data, metrics narratives, and risk highlights"
-tags: [Production]
+tags: [Production, analysis:risk, writing:communication, data:metrics, communication:stakeholder]
 connections:
   - target: data-summarisation
     type: derived_from

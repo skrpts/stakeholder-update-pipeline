@@ -3,7 +3,7 @@ type: workflow
 id: stakeholder-update-pipeline
 title: Stakeholder Update Pipeline
 description: "Multi-stage pipeline that transforms raw product data into executive summaries, board decks, and tailored stakeholder communications"
-tags: [Production, Tested]
+tags: [Production, Tested, writing:communication, communication:stakeholder]
 connections:
   - target: data-summarisation
     type: uses

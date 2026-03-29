@@ -3,7 +3,7 @@ type: prompt
 id: board-deck-generator
 title: Board Deck Generator
 description: "Create board-level presentation content with strategic framing, suitable for slide decks"
-tags: [Production]
+tags: [Production, writing:communication, communication:stakeholder]
 connections:
   - target: audience-adaptation
     type: derived_from

@@ -3,7 +3,7 @@ type: prompt
 id: metrics-dashboard-narrator
 title: Metrics Dashboard Narrator
 description: "Transform dashboard metrics into a written narrative that explains what the numbers mean"
-tags: [Production]
+tags: [Production, writing:communication, data:visualisation, data:metrics, communication:stakeholder]
 connections:
   - target: data-summarisation
     type: derived_from

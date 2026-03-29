@@ -3,7 +3,7 @@ type: document
 id: stakeholder-management-guide
 title: Stakeholder Management Guide
 description: "Guide to managing stakeholder relationships, expectations, and communications for product managers"
-tags: [Production, Customer-Facing]
+tags: [Production, Customer-Facing, writing:communication, communication:stakeholder]
 connections:
   - target: stakeholder-comms-framework
     type: references

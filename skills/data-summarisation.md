@@ -3,7 +3,7 @@ type: skill
 id: data-summarisation
 title: Data Summarisation
 description: "Distilling complex data into concise, audience-appropriate summaries that highlight what matters most"
-tags: [Production, Tested]
+tags: [Production, Tested, writing:communication, communication:stakeholder]
 connections:
   - target: llm-service
     type: runs_on

@@ -3,7 +3,7 @@ type: skill
 id: narrative-framing
 title: Narrative Framing
 description: "Framing product updates as compelling narratives for different audiences, connecting data to strategic context"
-tags: [Production, Tested]
+tags: [Production, Tested, writing:communication, communication:stakeholder, communication:narrative]
 connections:
   - target: llm-service
     type: runs_on

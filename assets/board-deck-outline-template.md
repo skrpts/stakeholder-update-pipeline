@@ -3,7 +3,7 @@ type: asset
 id: board-deck-outline-template
 title: Board Deck Outline Template
 description: "Template for structuring board-level presentation decks"
-tags: [Production, Customer-Facing]
+tags: [Production, Customer-Facing, writing:communication, communication:stakeholder]
 connections: []
 metadata:
   asset_type: "template"

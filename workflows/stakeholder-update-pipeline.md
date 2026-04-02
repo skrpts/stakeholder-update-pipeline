@@ -40,11 +40,11 @@ connections:
   - target: board-deck-outline-template
     type: references
   - target: risk-assessment
+    type: uses
 metadata:
   estimated_duration: "20-30 minutes"
   avg_tokens: 15000
   trigger: manual
-    type: uses
 ---
 
 ## Stakeholder Update Pipeline

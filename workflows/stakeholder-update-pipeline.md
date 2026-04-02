@@ -39,11 +39,11 @@ connections:
     type: references
   - target: board-deck-outline-template
     type: references
+  - target: risk-assessment
 metadata:
   estimated_duration: "20-30 minutes"
   avg_tokens: 15000
   trigger: manual
-  - target: risk-assessment
     type: uses
 ---
 

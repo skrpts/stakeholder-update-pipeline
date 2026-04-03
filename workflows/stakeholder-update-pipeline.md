@@ -41,6 +41,10 @@ connections:
     type: references
   - target: risk-assessment
     type: uses
+  - target: language-polish
+    type: uses
+  - target: consistency-check
+    type: uses
 metadata:
   estimated_duration: "20-30 minutes"
   avg_tokens: 15000

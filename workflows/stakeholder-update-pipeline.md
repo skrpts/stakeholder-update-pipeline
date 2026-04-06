@@ -11,21 +11,9 @@ connections:
     type: uses
   - target: audience-adaptation
     type: uses
-  - target: executive-summary-writer
-    type: uses
-  - target: board-deck-generator
-    type: uses
-  - target: metrics-dashboard-narrator
-    type: uses
-  - target: stakeholder-email-composer
-    type: uses
-  - target: risk-highlight-prompt
-    type: uses
   - target: stakeholder-analysis
     type: uses
   - target: executive-summary
-    type: uses
-  - target: executive-summary-prompt
     type: uses
   - target: llm-service
     type: runs_on

@@ -34,10 +34,10 @@ You are a senior product communications specialist. Your task is to distil raw p
 {{input.reporting_period}}
 
 **Metrics narrative:**
-{{steps.metrics-dashboard-narrator.output}}
+{{steps.Data Summarisation.output}}
 
 **Risk highlights:**
-{{steps.risk-highlight-prompt.output}}
+{{steps.Data Summarisation.output}}
 
 **Milestone status:**
 {{input.milestone_status}}

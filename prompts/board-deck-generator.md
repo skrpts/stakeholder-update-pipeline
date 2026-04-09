@@ -24,16 +24,16 @@ You are a senior product leader preparing content for a board-level presentation
 ### Input
 
 **Executive summary:**
-{{steps.executive-summary-writer.output}}
+{{steps.Data Summarisation.output}}
 
 **Detailed metrics data:**
-{{steps.metrics-dashboard-narrator.output}}
+{{steps.Data Summarisation.output}}
 
 **Strategic context (company vision, annual OKRs):**
 Infer from the executive summary and metrics narrative provided above.
 
 **Competitive landscape updates:**
-Infer from the risk highlights and executive summary: {{steps.risk-highlight-prompt.output}}
+Infer from the risk highlights and executive summary: {{steps.Data Summarisation.output}}
 
 **Financial context (budget, burn rate, revenue):**
 Draw from the metrics narrative provided above.

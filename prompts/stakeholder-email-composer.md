@@ -22,7 +22,7 @@ You are a product communications specialist. Your task is to draft stakeholder u
 ### Input
 
 **Executive summary:**
-{{steps.executive-summary-writer.output}}
+{{steps.Data Summarisation.output}}
 
 **Reporting period:**
 {{input.reporting_period}}

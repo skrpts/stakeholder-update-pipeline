@@ -2,7 +2,7 @@ id: "69123530-b0da-497c-a2f1-b44163d0a939"
 name: "stakeholder-update-pipeline"
 display_name: "Stakeholder Update Pipeline"
 description: "Generate executive summaries, board decks, and stakeholder communications from raw product data"
-version: "1.1.4"
+version: "1.1.5"
 engine: ">=1.0.0"
 
 author:
@@ -30,10 +30,10 @@ requires:
 
 contents:
   skills: 8
-  prompts: 10
+  prompts: 11
   workflows: 1
   services: 1
   sources: 2
   documents: 1
   assets: 2
-  total: 25
+  total: 26

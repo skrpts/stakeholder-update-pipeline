@@ -4,6 +4,25 @@ id: executive-summary-writer
 title: Executive Summary Writer
 description: "Generate a one-page executive summary from product data, metrics narratives, and risk highlights"
 tags: [Production, Communication, Metrics, Risk]
+inputs:
+  reporting_period:
+    label: "Reporting Period"
+    description: "The time period this report covers"
+    example: "Week of 7 April 2026"
+    required: true
+    type: text
+  milestone_status:
+    label: "Milestone Status"
+    description: "Current status of project milestones"
+    example: "Alpha: complete. Beta: 70% done. GA: not started."
+    required: true
+    type: text
+  key_decisions:
+    label: "Key Decisions"
+    description: "Important decisions made during the period"
+    example: "Chose React over Vue. Delayed mobile app to Q4."
+    required: true
+    type: text
 connections:
   - target: data-summarisation
     type: derived_from

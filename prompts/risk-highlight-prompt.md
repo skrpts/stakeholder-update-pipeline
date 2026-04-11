@@ -4,6 +4,13 @@ id: risk-highlight-prompt
 title: Risk Highlight Prompt
 description: "Identify and frame key risks from product data for stakeholder attention"
 tags: [Production, Communication, Risk]
+inputs:
+  known_risks:
+    label: "Known Risks"
+    description: "Risks already identified for this initiative"
+    example: "Key engineer leaving in Q3. API dependency on third party with no SLA."
+    required: true
+    type: text
 connections:
   - target: data-summarisation
     type: derived_from

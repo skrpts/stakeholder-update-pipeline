@@ -4,6 +4,25 @@ id: metrics-dashboard-narrator
 title: Metrics Dashboard Narrator
 description: "Transform dashboard metrics into a written narrative that explains what the numbers mean"
 tags: [Production, Communication, Data, Metrics]
+inputs:
+  reporting_period:
+    label: "Reporting Period"
+    description: "The time period this report covers"
+    example: "Week of 7 April 2026"
+    required: true
+    type: text
+  product_metrics:
+    label: "Product Metrics"
+    description: "Current product metrics and KPIs"
+    example: "DAU: 450, WAU: 1200, churn: 3.2%, NPS: 42"
+    required: true
+    type: text
+  milestone_status:
+    label: "Milestone Status"
+    description: "Current status of project milestones"
+    example: "Alpha: complete. Beta: 70% done. GA: not started."
+    required: true
+    type: text
 connections:
   - target: data-summarisation
     type: derived_from

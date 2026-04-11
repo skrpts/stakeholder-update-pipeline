@@ -4,6 +4,13 @@ id: frame-narrative
 title: "Frame Narrative"
 description: "Structures data and findings into a compelling stakeholder narrative"
 tags: [Production, Communication]
+inputs:
+  stakeholder_audience:
+    label: "Stakeholder Audience"
+    description: "Who will receive this update or presentation"
+    example: "Board of directors — quarterly business review"
+    required: true
+    type: text
 connections:
   - target: narrative-framing
     type: derived_from

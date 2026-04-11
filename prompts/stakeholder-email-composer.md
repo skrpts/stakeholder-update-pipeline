@@ -4,6 +4,13 @@ id: stakeholder-email-composer
 title: Stakeholder Email Composer
 description: "Draft stakeholder update emails tailored to different audiences with appropriate tone, depth, and focus"
 tags: [Production, Audience, Communication]
+inputs:
+  reporting_period:
+    label: "Reporting Period"
+    description: "The time period this report covers"
+    example: "Week of 7 April 2026"
+    required: true
+    type: text
 connections:
   - target: audience-adaptation
     type: derived_from

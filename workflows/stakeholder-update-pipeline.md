@@ -37,6 +37,22 @@ metadata:
   estimated_duration: "20-30 minutes"
   avg_tokens: 15000
   trigger: manual
+execution:
+  - skill: "data-summarisation"
+  - skill: "narrative-framing"
+    input_from: "data-summarisation"
+  - skill: "audience-adaptation"
+    input_from: "narrative-framing"
+  - skill: "stakeholder-analysis"
+    input_from: "audience-adaptation"
+  - skill: "executive-summary"
+    input_from: "stakeholder-analysis"
+  - skill: "risk-assessment"
+    input_from: "executive-summary"
+  - skill: "language-polish"
+    input_from: "executive-summary"
+  - skill: "consistency-check"
+    input_from: "executive-summary"
 ---
 
 ## Stakeholder Update Pipeline

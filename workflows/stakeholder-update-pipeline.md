@@ -42,25 +42,19 @@ execution:
     step_type: "synthesis"
   - skill: "narrative-framing"
     step_type: "synthesis"
-    input_from: "data-summarisation"
   - skill: "audience-adaptation"
     step_type: "generation"
-    input_from: "narrative-framing"
   - skill: "stakeholder-analysis"
     step_type: "synthesis"
-    input_from: "audience-adaptation"
   - skill: "executive-summary"
     step_type: "synthesis"
-    input_from: "stakeholder-analysis"
+  - parallel:
+    - skill: "language-polish"
+      step_type: "content"
   - skill: "risk-assessment"
     step_type: "review"
-    input_from: "executive-summary"
-  - skill: "language-polish"
-    step_type: "content"
-    input_from: "executive-summary"
   - skill: "consistency-check"
     step_type: "review"
-    input_from: "language-polish"
 ---
 
 ## Stakeholder Update Pipeline

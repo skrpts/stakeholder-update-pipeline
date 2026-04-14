@@ -2,7 +2,7 @@ id: "69123530-b0da-497c-a2f1-b44163d0a939"
 name: "stakeholder-update-pipeline"
 display_name: "Stakeholder Update Pipeline"
 description: "Generate executive summaries, board decks, and stakeholder communications from raw product data"
-version: "1.1.10"
+version: "1.1.11"
 engine: ">=1.0.0"
 
 author:
@@ -27,18 +27,6 @@ requires:
     - "business-metrics"
     - "product-roadmap"
     - "financial-data"
-
-# --- Output ---
-output_step: "executive-summary"
-composite_steps:
-  - "data-summarisation"
-  - "narrative-framing"
-  - "audience-adaptation"
-  - "stakeholder-analysis"
-  - "executive-summary"
-  - "risk-assessment"
-  - "language-polish"
-  - "consistency-check"
 
 contents:
   skills: 8

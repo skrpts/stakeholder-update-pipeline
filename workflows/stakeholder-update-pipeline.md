@@ -37,6 +37,16 @@ metadata:
   estimated_duration: "20-30 minutes"
   avg_tokens: 15000
   trigger: manual
+output_step: "executive-summary"
+composite_steps:
+  - "data-summarisation"
+  - "narrative-framing"
+  - "audience-adaptation"
+  - "stakeholder-analysis"
+  - "executive-summary"
+  - "risk-assessment"
+  - "language-polish"
+  - "consistency-check"
 execution:
   - skill: "data-summarisation"
     step_type: "synthesis"

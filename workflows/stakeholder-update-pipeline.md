@@ -58,13 +58,13 @@ execution:
     step_type: "synthesis"
   - skill: "executive-summary"
     step_type: "synthesis"
+  - skill: "language-polish"
+    step_type: "content"
   - parallel:
-    - skill: "language-polish"
-      step_type: "content"
-  - skill: "risk-assessment"
-    step_type: "review"
-  - skill: "consistency-check"
-    step_type: "review"
+    - skill: "risk-assessment"
+      step_type: "review"
+    - skill: "consistency-check"
+      step_type: "review"
 ---
 
 ## Stakeholder Update Pipeline

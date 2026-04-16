@@ -3,7 +3,13 @@ type: skill
 id: stakeholder-analysis
 title: Stakeholder Analysis
 description: "Identifying stakeholders, their needs, influence levels, and impact on product decisions"
-tags: [Production, Tested, Audience, Communication]
+tags: [Production, Tested, Audience, Planning]
+context_params:
+  org_context:
+    label: "Organisational Context"
+    description: "Context about the organisation — size, structure, culture"
+    default: ""
+    required: true
 connections:
   - target: llm-service
     type: runs_on

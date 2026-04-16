@@ -52,10 +52,14 @@ execution:
     step_type: "synthesis"
   - skill: "narrative-framing"
     step_type: "synthesis"
+    context:
+      stakeholder_audience: ""
   - skill: "audience-adaptation"
     step_type: "generation"
   - skill: "stakeholder-analysis"
     step_type: "synthesis"
+    context:
+      org_context: ""
   - skill: "executive-summary"
     step_type: "synthesis"
   - skill: "language-polish"

@@ -4,6 +4,12 @@ id: narrative-framing
 title: Narrative Framing
 description: "Framing product updates as compelling narratives for different audiences, connecting data to strategic context"
 tags: [Production, Tested, Audience, Communication]
+context_params:
+  stakeholder_audience:
+    label: "Stakeholder Audience"
+    description: "Who will receive this update or presentation"
+    default: ""
+    required: true
 connections:
   - target: llm-service
     type: runs_on

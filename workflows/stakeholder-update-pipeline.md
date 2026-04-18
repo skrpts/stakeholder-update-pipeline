@@ -50,12 +50,14 @@ composite_steps:
 execution:
   - skill: "data-summarisation"
     step_type: "synthesis"
+    prompt: "executive-summary-writer"
   - skill: "narrative-framing"
     step_type: "synthesis"
     context:
       stakeholder_audience: ""
   - skill: "audience-adaptation"
     step_type: "generation"
+    prompt: "stakeholder-email-composer"
   - skill: "stakeholder-analysis"
     step_type: "synthesis"
     context:

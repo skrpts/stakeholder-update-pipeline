@@ -52,6 +52,7 @@ execution:
     step_type: "synthesis"
     prompt: "executive-summary-writer"
   - skill: "narrative-framing"
+    prompt: "board-deck-generator"
     step_type: "synthesis"
     context:
       stakeholder_audience: ""
@@ -59,17 +60,22 @@ execution:
     step_type: "generation"
     prompt: "stakeholder-email-composer"
   - skill: "stakeholder-analysis"
+    prompt: "analyse-stakeholders"
     step_type: "synthesis"
     context:
       org_context: ""
   - skill: "executive-summary"
+    prompt: "executive-summary-prompt"
     step_type: "synthesis"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
   - parallel:
     - skill: "risk-assessment"
+      prompt: "assess-risks"
       step_type: "review"
     - skill: "consistency-check"
+      prompt: "check-consistency"
       step_type: "review"
 ---
 

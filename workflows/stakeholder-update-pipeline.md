@@ -55,7 +55,7 @@ execution:
     prompt: "board-deck-generator"
     step_type: "synthesis"
     context:
-      stakeholder_audience: ""
+      stakeholder_audience: "General stakeholders"
   - skill: "audience-adaptation"
     step_type: "generation"
     prompt: "stakeholder-email-composer"
@@ -63,7 +63,7 @@ execution:
     prompt: "analyse-stakeholders"
     step_type: "synthesis"
     context:
-      org_context: ""
+      org_context: "No additional organisational context"
   - skill: "executive-summary"
     prompt: "executive-summary-prompt"
     step_type: "synthesis"
@@ -71,20 +71,20 @@ execution:
     prompt: "polish-language"
     step_type: "content"
     context:
-      voice_profile: ""
-      grammar_strictness: ""
+      voice_profile: "Neutral professional tone"
+      grammar_strictness: "Professional"
   - parallel:
     - skill: "risk-assessment"
       prompt: "assess-risks"
       step_type: "review"
       context:
-        initiative_context: ""
+        initiative_context: "No additional initiative context"
     - skill: "consistency-check"
       prompt: "check-consistency"
       step_type: "review"
       context:
-        voice_profile: ""
-        consistency_strictness: ""
+        voice_profile: "Neutral professional tone"
+        consistency_strictness: "Standard"
 ---
 
 ## Stakeholder Update Pipeline

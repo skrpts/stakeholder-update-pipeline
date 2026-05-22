@@ -2,7 +2,7 @@ id: "69123530-b0da-497c-a2f1-b44163d0a939"
 name: "stakeholder-update-pipeline"
 display_name: "Stakeholder Update Pipeline"
 description: "Generate executive summaries, board decks, and stakeholder communications from raw product data"
-version: "1.1.23"
+version: "1.1.24"
 engine: ">=0.1.0"
 
 author:
@@ -13,11 +13,11 @@ repository: "https://github.com/skrpts/stakeholder-update-pipeline"
 
 category: "product-manager"
 tags:
-  - "stakeholder-management"
-  - "executive-summary"
   - "board-deck"
   - "communications"
+  - "executive-summary"
   - "reporting"
+  - "stakeholder-management"
 
 requires:
   services:

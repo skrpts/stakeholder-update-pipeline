@@ -51,25 +51,31 @@ execution:
   - skill: "data-summarisation"
     step_type: "synthesis"
     prompt: "executive-summary-writer"
+    output: { name: "summary", type: "text" }
   - skill: "narrative-framing"
     prompt: "board-deck-generator"
     step_type: "synthesis"
+    output: { name: "board_deck", type: "text" }
     context:
       stakeholder_audience: "General stakeholders"
   - skill: "audience-adaptation"
     step_type: "generation"
     prompt: "stakeholder-email-composer"
+    output: { name: "stakeholder_email", type: "text" }
   - skill: "stakeholder-analysis"
     prompt: "analyse-stakeholders"
     step_type: "synthesis"
+    output: { name: "stakeholder_analysis", type: "text" }
     context:
       org_context: "No additional organisational context"
   - skill: "executive-summary"
     prompt: "executive-summary-prompt"
     step_type: "synthesis"
+    output: { name: "executive_summary", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_update", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
@@ -77,11 +83,13 @@ execution:
     - skill: "risk-assessment"
       prompt: "assess-risks"
       step_type: "review"
+      output: { name: "risk_assessment", type: "text" }
       context:
         initiative_context: "No additional initiative context"
     - skill: "consistency-check"
       prompt: "check-consistency"
       step_type: "review"
+      output: { name: "consistency_verdict", type: "decision" }
       context:
         voice_profile: "Neutral professional tone"
         consistency_strictness: "Standard"

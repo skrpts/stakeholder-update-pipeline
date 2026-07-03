@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.27
+GH#745 — declare per-step `output: {name, type}` on every execution step (summary/text, board_deck/text, stakeholder_email/text, stakeholder_analysis/text, executive_summary/text, polished_update/text, risk_assessment/text, consistency_verdict/decision). Lights up the #744 rich flow-map. Content-only; no bindings or logic changes.
+
 ## v1.1.26
 GH#645 Row 3b — migrate to K-037 dep-referenced schema. Strip 13 inline shared-content files and declare 13 hub-shared deps (UUID id + slug name + version + checksum from `gen-dep-checksums.mjs`). Closes pre-Step-3 inline-vendoring for this bundle.
 

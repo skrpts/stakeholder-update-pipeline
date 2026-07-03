@@ -2,7 +2,7 @@ id: "69123530-b0da-497c-a2f1-b44163d0a939"
 name: "stakeholder-update-pipeline"
 display_name: "Stakeholder Update Pipeline"
 description: "Generate executive summaries, board decks, and stakeholder communications from raw product data"
-version: "1.1.26"
+version: "1.1.27"
 engine: ">=0.1.0"
 
 author:
@@ -91,3 +91,17 @@ contents:
   documents: 1
   assets: 2
   total: 13
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-03T11:10:26.855Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: ["llm-service"]
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/stakeholder-update-pipeline/security"

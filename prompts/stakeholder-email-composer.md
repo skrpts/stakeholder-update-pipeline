@@ -29,7 +29,7 @@ You are a product communications specialist. Your task is to draft stakeholder u
 ### Input
 
 **Executive summary:**
-{{steps.Data Summarisation.output}}
+{{steps.Data Summarization.output}}
 
 **Reporting period:**
 {{input.reporting_period}}
@@ -55,7 +55,7 @@ Draft separate email updates for each of the following audience segments. Each e
 **Subject line:** Keep it under 60 characters. Lead with the headline finding. Example: "Product Update: Q1 targets exceeded, enterprise pipeline at risk"
 
 **Structure:**
-- Opening line: one sentence summarising overall status (on track / at risk / ahead of plan)
+- Opening line: one sentence summarizing overall status (on track / at risk / ahead of plan)
 - Key metrics: 3-4 bullet points, each with the metric value, trend, and target comparison
 - Wins: 2-3 most significant achievements, framed as business outcomes
 - Risks: 1-2 top risks with severity and mitigation status

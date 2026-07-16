@@ -87,13 +87,13 @@ Select the 3-5 most strategically significant metrics from the metrics narrative
 Do not include more than 5 metrics. If everything is important, nothing is.
 
 #### 3. Progress Update (3-5 bullet points)
-Summarise the most significant achievements and milestones from the period:
+Summarize the most significant achievements and milestones from the period:
 - Frame in terms of outcomes, not outputs ("Reduced customer onboarding time by 40%", not "Shipped 12 features")
 - Note any milestones completed ahead of or behind schedule
 - Highlight cross-functional wins or dependencies that were successfully managed
 
 #### 4. Risks and Issues (2-4 bullet points)
-Summarise the most significant risks from the risk highlights:
+Summarize the most significant risks from the risk highlights:
 - State each risk clearly and concisely
 - Include the current severity level and trend (new, escalated, stable, de-escalating)
 - Note what mitigation is in place or planned

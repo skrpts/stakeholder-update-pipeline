@@ -127,7 +127,7 @@ Run these two prompts in parallel on the raw input data:
 
 ##### 1b: Risk Identification
 - Scan the input data for risks, blockers, and issues
-- Categorise risks by severity (critical, high, medium, low) and likelihood
+- Categorize risks by severity (critical, high, medium, low) and likelihood
 - Frame each risk with: what it is, why it matters, what is being done about it, and what decision (if any) is needed from stakeholders
 - Distinguish between risks that need stakeholder action and those that are informational only
 
@@ -139,10 +139,10 @@ Run these two prompts in parallel on the raw input data:
 **Skills:** `data-summarisation`, `narrative-framing`
 **References:** `exec-summary-template`
 
-- Synthesise the metrics narrative and risk highlights into a one-page executive summary
+- Synthesize the metrics narrative and risk highlights into a one-page executive summary
 - Lead with the headline: the single most important thing the reader needs to know
 - Structure: headline, key metrics (3-5 max), progress update, risks and mitigations, decisions needed
-- Optimise for a reader who has 2 minutes and will not scroll past the first page
+- Optimize for a reader who has 2 minutes and will not scroll past the first page
 
 #### Stage 3: Audience-Specific Outputs
 
@@ -173,7 +173,7 @@ Run these two prompts in parallel, both consuming the executive summary as input
 
 #### Stage 4: Quality Review
 
-Before finalising:
+Before finalizing:
 
 - Verify consistency across all outputs — the same metric should not be described as "strong growth" in the exec summary and "moderate improvement" in the board deck
 - Check that risk framing is consistent — a risk flagged as critical in one output should not be downplayed in another
@@ -187,7 +187,7 @@ The pipeline produces:
 1. **Executive summary** — one-page stakeholder-ready summary
 2. **Board deck content** — slide-by-slide content for board presentation (8-12 slides)
 3. **Metrics narrative** — detailed written narrative of dashboard data
-4. **Risk briefing** — categorised risk register with mitigations and asks
+4. **Risk briefing** — categorized risk register with mitigations and asks
 5. **Stakeholder emails** — 2-3 audience-tailored email drafts
 
 ### Error Handling
@@ -217,7 +217,7 @@ The pipeline produces:
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes

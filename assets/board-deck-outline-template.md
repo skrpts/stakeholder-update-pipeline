@@ -14,7 +14,7 @@ metadata:
 
 ### Deck Metadata
 
-- **Product/Programme:** {{product_name}}
+- **Product/Program:** {{product_name}}
 - **Reporting period:** {{reporting_period}}
 - **Presenter:** {{presenter_name}}, {{presenter_role}}
 - **Board meeting date:** {{meeting_date}}
@@ -63,9 +63,9 @@ metadata:
   - Milestones completed: {{completed_milestones}}
   - Milestones on track: {{on_track_milestones}}
   - Milestones at risk: {{at_risk_milestones}}
-  - Overall programme status: On Track / At Risk / Off Track
+  - Overall program status: On Track / At Risk / Off Track
 - **Speaker notes:** Connect milestone progress to the commitments made at the previous board meeting.
-- **Visual:** Timeline or Gantt-style progress visualisation
+- **Visual:** Timeline or Gantt-style progress visualization
 
 ---
 
@@ -111,7 +111,7 @@ metadata:
 
 - **Key message:** {{resource_headline}}
 - **Content:**
-  - Budget utilised: {{budget_used}} of {{budget_total}} ({{budget_percentage}}%)
+  - Budget utilized: {{budget_used}} of {{budget_total}} ({{budget_percentage}}%)
   - Headcount: {{current_headcount}} / {{planned_headcount}}
   - Key investments this period: {{key_investments}}
   - Financial outlook: {{financial_outlook}}

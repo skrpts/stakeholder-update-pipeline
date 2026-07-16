@@ -39,7 +39,7 @@ Every communication should be designed for its audience, not for the convenience
 Structure all stakeholder communications using Barbara Minto's Pyramid Principle:
 
 1. **Start with the answer:** Lead with the conclusion, recommendation, or headline finding
-2. **Group supporting arguments:** Organise evidence into logical groups (typically 3-5)
+2. **Group supporting arguments:** Organize evidence into logical groups (typically 3-5)
 3. **Order logically:** Present groups in order of importance, chronology, or dependency
 4. **Details last:** Place supporting data and methodology at the end, available for those who want it
 

@@ -45,7 +45,7 @@ Use the known risks and issues provided above.
 
 ### Instructions
 
-Analyse the provided data and produce a structured risk briefing:
+Analyze the provided data and produce a structured risk briefing:
 
 #### 1. Risk Identification
 
@@ -59,7 +59,7 @@ Scan the input data for risks across these categories:
 - **Dependency risks:** reliance on third-party services, partner commitments, cross-team dependencies at risk
 
 For each identified risk, assess:
-- **Severity:** Critical (threatens programme viability), High (threatens key outcomes), Medium (threatens secondary outcomes), Low (minor impact)
+- **Severity:** Critical (threatens program viability), High (threatens key outcomes), Medium (threatens secondary outcomes), Low (minor impact)
 - **Likelihood:** Almost certain, Likely, Possible, Unlikely
 - **Trend:** New (first appearance), Escalating (getting worse), Stable (unchanged), De-escalating (improving)
 
@@ -96,7 +96,7 @@ Produce the risk briefing in structured markdown with the summary table first (f
 
 ### Constraints
 
-- Do not minimise or soften risks — present them factually and directly
+- Do not minimize or soften risks — present them factually and directly
 - Do not catastrophise — distinguish between "something to watch" and "something to act on"
 - If the data is insufficient to assess a risk confidently, state this rather than guessing
 - Always include at least one positive risk signal, even if it is minor — all-negative briefings are demoralising and suggest the analyst is filtering for problems

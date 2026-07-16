@@ -24,16 +24,16 @@ You are a senior product leader preparing content for a board-level presentation
 ### Input
 
 **Executive summary:**
-{{steps.Data Summarisation.output}}
+{{steps.Data Summarization.output}}
 
 **Detailed metrics data:**
-{{steps.Data Summarisation.output}}
+{{steps.Data Summarization.output}}
 
 **Strategic context (company vision, annual OKRs):**
 Infer from the executive summary and metrics narrative provided above.
 
 **Competitive landscape updates:**
-Infer from the risk highlights and executive summary: {{steps.Data Summarisation.output}}
+Infer from the risk highlights and executive summary: {{steps.Data Summarization.output}}
 
 **Financial context (budget, burn rate, revenue):**
 Draw from the metrics narrative provided above.
@@ -48,12 +48,12 @@ Generate content for a board presentation of 8-12 slides. For each slide, provid
 - **Key message** (one sentence — the takeaway if the audience reads nothing else)
 - **Bullet points** (3-5 supporting points)
 - **Speaker notes** (2-3 sentences of additional context for the presenter)
-- **Suggested visual** (chart type, diagram, or data visualisation recommendation)
+- **Suggested visual** (chart type, diagram, or data visualization recommendation)
 
 #### Slide Structure
 
 **Slide 1: Title and Context**
-- Product/programme name, reporting period, presenter
+- Product/program name, reporting period, presenter
 - One-sentence strategic positioning statement
 - Visual: Company/product logo, clean design
 
@@ -72,7 +72,7 @@ Generate content for a board presentation of 8-12 slides. For each slide, provid
 **Slide 4: Progress Against Plan**
 - Major milestones achieved this period
 - Milestones upcoming next period
-- Overall programme status (on track / at risk / off track)
+- Overall program status (on track / at risk / off track)
 - Visual: Milestone timeline or Gantt-style progress bar
 
 **Slide 5: Market and Competitive Position**
@@ -94,7 +94,7 @@ Generate content for a board presentation of 8-12 slides. For each slide, provid
 - Visual: Risk matrix (likelihood vs. impact) with items plotted
 
 **Slide 9: Resource and Financial Summary**
-- Budget utilisation vs. plan
+- Budget utilization vs. plan
 - Headcount status (current, planned, gaps)
 - Key investments and their expected returns
 - Visual: Budget waterfall or resource allocation chart
